@@ -1,0 +1,379 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definisi animasi */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Penerapan animasi ke teks */
+  .fade-in-text {
+    opacity: 0; /* Mulai dari transparan */
+    animation: fadeIn 1s ease-in forwards; /* Durasi 2 detik dengan efek ease-in */
+  }
+  
+
+.container {
+    background-image: url(../assets/background/tanjiro.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container1 {
+    background-image: url(../assets/background/zenitsu.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container2 {
+    background-image: url(../assets/background/inosuke.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container3 {
+    background-image: url(../assets/background/yoriichi.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container4 {
+    background-image: url(../assets/background/gyomei.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container5 {
+    background-image: url(../assets/background/rengoku.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container6 {
+    background-image: url(../assets/background/tengen.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container7 {
+    background-image: url(../assets/background/iguro.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container8 {
+    background-image: url(../assets/background/muichiro.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container9 {
+    background-image: url(../assets/background/sanemi.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container10 {
+    background-image: url(../assets/background/giyu.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container11 {
+    background-image: url(../assets/background/shinobu.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container12 {
+    background-image: url(../assets/background/mitsuri.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.container13 {
+    background-image: url(../assets/background/genya.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; /* Tambahkan ini untuk membuat kontainer sebagai posisi relatif */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-end; /* Menyusun kartu di sebelah kanan */
+    margin-right: 20px; /* Tambahkan jarak dari sisi kanan */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    right: 25; /* Memposisikan di sebelah kanan */
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-start; /* Menyusun kartu di sebelah kiri */
+    margin-left: 20px; /* Tambahkan jarak dari sisi kiri */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    left: 10; /* Memposisikan di sebelah kiri */
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-end; /* Menyusun kartu di sebelah kanan */
+    margin-right: 20px; /* Tambahkan jarak dari sisi kanan */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    right: 10; /* Memposisikan di sebelah kanan */
+    top: 15;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-end; /* Menyusun kartu di sebelah kanan */
+    margin-right: 20px; /* Tambahkan jarak dari sisi kanan */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    right: 15; /* Memposisikan di sebelah kanan */
+    bottom: 25;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-end; /* Menyusun kartu di sebelah kanan */
+    margin-right: 20px; /* Tambahkan jarak dari sisi kanan */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    right: 15; /* Memposisikan di sebelah kanan */
+    top: 10;
+}
+
+.card5 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-start; /* Menyusun kartu di sebelah kiri */
+    margin-left: 20px; /* Tambahkan jarak dari sisi kiri */
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    left: 10; /* Memposisikan di sebelah kiri */
+    bottom: 5;
+}
+
+.card6 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: center;
+    margin-left: 20px; /* Tambahkan jarak dari sisi kiri */
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    bottom: 3;
+}
+
+.card7 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-end; /* Menyusun kartu di sebelah kanan */
+    margin-right: 20px; /* Tambahkan jarak dari sisi kanan */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    right: 15; /* Memposisikan di sebelah kanan */
+    bottom: 25;
+}
+
+.card8 {
+    display: flex;
+    flex-direction: column; /* Menjadikan kartu memanjang ke bawah */
+    align-items: flex-start; /* Menyusun kartu di sebelah kiri */
+    margin-left: 20px; /* Tambahkan jarak dari sisi kiri */
+    margin-bottom: 20px;
+    position: absolute; /* Atau bisa gunakan 'fixed' untuk tetap di posisi saat di-scroll */
+    left: 15; /* Memposisikan di sebelah kiri */
+    bottom: 0;
+}
+
+.card-item {
+    width: 40%; /* Meningkatkan lebar kartu */
+    background: #f7f7f7;
+    color: #222;
+    padding: 15px; /* Menyesuaikan padding */
+    box-shadow: 5px 10px 10px 10px rgba(7,10,10,11); 
+    border-radius: 10px; /* Menambah radius sudut untuk tampilan yang lebih halus */
+    margin-bottom: 20px; /* Memberikan jarak antar kartu */
+}
+
+.card-item1 {
+    width: 70%; /* Meningkatkan lebar kartu */
+    background: #f7f7f7;
+    color: #222;
+    padding: 15px; /* Menyesuaikan padding */
+    box-shadow: 5px 10px 10px 10px rgba(7,10,10,11); 
+    border-radius: 10px; /* Menambah radius sudut untuk tampilan yang lebih halus */
+    margin-bottom: 20px; /* Memberikan jarak antar kartu */
+}
+
+.card-item2 {
+    width: 90%; /* Meningkatkan lebar kartu */
+    background: #f7f7f7;
+    color: #222;
+    padding: 15px; /* Menyesuaikan padding */
+    box-shadow: 5px 10px 10px 10px rgba(7,10,10,11); 
+    border-radius: 10px; /* Menambah radius sudut untuk tampilan yang lebih halus */
+    margin-bottom: 20px; /* Memberikan jarak antar kartu */
+}
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; /* Ukuran font untuk judul */
+    font-weight: bolder;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.card-title p {
+    margin-bottom: 15px; /* Menambahkan jarak antar paragraf */
+}
+
+.back-button {
+    position: absolute;
+    top: 20px; /* Jarak dari atas */
+    left: 20px; /* Jarak dari kiri */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+  }
+  
+  .back-button .arrow-icon {
+    font-size: 20px; /* Ukuran ikon panah */
+    color: #000000; /* Warna ikon panah */
+  }
+  
+  .back-button:hover {
+    background-color: #ac0000; /* Warna lebih gelap saat hover */
+  }
+  
